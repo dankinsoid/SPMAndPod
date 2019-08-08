@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BAA848382ADD483504BE046 /* libPods-SPMAndPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 949B8D20CF914819089E0CDB /* libPods-SPMAndPod.a */; };
 		22D8409F22FAEFC500FA3243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D8409E22FAEFC500FA3243 /* AppDelegate.swift */; };
 		22D840A122FAEFC500FA3243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D840A022FAEFC500FA3243 /* ViewController.swift */; };
 		22D840A322FAEFC700FA3243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D840A222FAEFC700FA3243 /* Assets.xcassets */; };
 		22D840A622FAEFC700FA3243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D840A422FAEFC700FA3243 /* Main.storyboard */; };
 		22D840B222FAEFC700FA3243 /* SPMAndPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D840B122FAEFC700FA3243 /* SPMAndPodUITests.swift */; };
+		22D840BD22FAEFF000FA3243 /* Scripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D840BC22FAEFF000FA3243 /* Scripts.swift */; };
+		22D840BF22FAF88000FA3243 /* BuildScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 22D840BE22FAF88000FA3243 /* BuildScript.command */; };
+		22D840C422FB57D100FA3243 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 22D840C322FB57D100FA3243 /* LICENSE */; };
+		22D840C922FB58BB00FA3243 /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D840C822FB58BB00FA3243 /* Pods.swift */; };
+		22D840CE22FB7A0700FA3243 /* GIT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D840CD22FB7A0700FA3243 /* GIT.swift */; };
+		22D840D022FB7A4B00FA3243 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 22D840CF22FB7A4B00FA3243 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22C2A725DD4D54756A58C0A1 /* Pods-SPMAndPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMAndPod.debug.xcconfig"; path = "Target Support Files/Pods-SPMAndPod/Pods-SPMAndPod.debug.xcconfig"; sourceTree = "<group>"; };
 		22D8409B22FAEFC500FA3243 /* SPMAndPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMAndPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D8409E22FAEFC500FA3243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D840A022FAEFC500FA3243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,14 @@
 		22D840AD22FAEFC700FA3243 /* SPMAndPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPMAndPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D840B122FAEFC700FA3243 /* SPMAndPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMAndPodUITests.swift; sourceTree = "<group>"; };
 		22D840B322FAEFC700FA3243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D840BC22FAEFF000FA3243 /* Scripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scripts.swift; sourceTree = "<group>"; };
+		22D840BE22FAF88000FA3243 /* BuildScript.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BuildScript.command; sourceTree = "<group>"; };
+		22D840C322FB57D100FA3243 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		22D840C822FB58BB00FA3243 /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
+		22D840CD22FB7A0700FA3243 /* GIT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIT.swift; sourceTree = "<group>"; };
+		22D840CF22FB7A4B00FA3243 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87D242A739F1F73F553AA82E /* Pods-SPMAndPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMAndPod.release.xcconfig"; path = "Target Support Files/Pods-SPMAndPod/Pods-SPMAndPod.release.xcconfig"; sourceTree = "<group>"; };
+		949B8D20CF914819089E0CDB /* libPods-SPMAndPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPMAndPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAA848382ADD483504BE046 /* libPods-SPMAndPod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +75,12 @@
 		22D8409222FAEFC500FA3243 = {
 			isa = PBXGroup;
 			children = (
+				22D840CF22FB7A4B00FA3243 /* Podfile */,
 				22D8409D22FAEFC500FA3243 /* SPMAndPod */,
 				22D840B022FAEFC700FA3243 /* SPMAndPodUITests */,
 				22D8409C22FAEFC500FA3243 /* Products */,
+				E2A66C3828E75DD5F0198A39 /* Pods */,
+				FFD0C46B03B57B30BC11B329 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,11 +96,16 @@
 		22D8409D22FAEFC500FA3243 /* SPMAndPod */ = {
 			isa = PBXGroup;
 			children = (
+				22D840CC22FB787100FA3243 /* GitHub */,
 				22D8409E22FAEFC500FA3243 /* AppDelegate.swift */,
 				22D840A022FAEFC500FA3243 /* ViewController.swift */,
+				22D840BC22FAEFF000FA3243 /* Scripts.swift */,
+				22D840C822FB58BB00FA3243 /* Pods.swift */,
 				22D840A222FAEFC700FA3243 /* Assets.xcassets */,
 				22D840A422FAEFC700FA3243 /* Main.storyboard */,
+				22D840BE22FAF88000FA3243 /* BuildScript.command */,
 				22D840A722FAEFC700FA3243 /* Info.plist */,
+				22D840C322FB57D100FA3243 /* LICENSE */,
 				22D840A822FAEFC700FA3243 /* SPMAndPod.entitlements */,
 			);
 			path = SPMAndPod;
@@ -95,6 +120,31 @@
 			path = SPMAndPodUITests;
 			sourceTree = "<group>";
 		};
+		22D840CC22FB787100FA3243 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				22D840CD22FB7A0700FA3243 /* GIT.swift */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		E2A66C3828E75DD5F0198A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22C2A725DD4D54756A58C0A1 /* Pods-SPMAndPod.debug.xcconfig */,
+				87D242A739F1F73F553AA82E /* Pods-SPMAndPod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFD0C46B03B57B30BC11B329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949B8D20CF914819089E0CDB /* libPods-SPMAndPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D840B622FAEFC700FA3243 /* Build configuration list for PBXNativeTarget "SPMAndPod" */;
 			buildPhases = (
+				0024114CA9A1DAE34A73FD1C /* [CP] Check Pods Manifest.lock */,
 				22D8409722FAEFC500FA3243 /* Sources */,
 				22D8409822FAEFC500FA3243 /* Frameworks */,
 				22D8409922FAEFC500FA3243 /* Resources */,
@@ -145,6 +196,11 @@
 				TargetAttributes = {
 					22D8409A22FAEFC500FA3243 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					22D840AC22FAEFC700FA3243 = {
 						CreatedOnToolsVersion = 10.3;
@@ -176,8 +232,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D840D022FB7A4B00FA3243 /* Podfile in Resources */,
 				22D840A322FAEFC700FA3243 /* Assets.xcassets in Resources */,
 				22D840A622FAEFC700FA3243 /* Main.storyboard in Resources */,
+				22D840C422FB57D100FA3243 /* LICENSE in Resources */,
+				22D840BF22FAF88000FA3243 /* BuildScript.command in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,13 +249,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0024114CA9A1DAE34A73FD1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPMAndPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22D8409722FAEFC500FA3243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D840CE22FB7A0700FA3243 /* GIT.swift in Sources */,
+				22D840BD22FAEFF000FA3243 /* Scripts.swift in Sources */,
 				22D840A122FAEFC500FA3243 /* ViewController.swift in Sources */,
 				22D8409F22FAEFC500FA3243 /* AppDelegate.swift in Sources */,
+				22D840C922FB58BB00FA3243 /* Pods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +434,9 @@
 		};
 		22D840B722FAEFC700FA3243 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C2A725DD4D54756A58C0A1 /* Pods-SPMAndPod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SPMAndPod/SPMAndPod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4733T56UZW;
@@ -358,6 +445,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = voidilov.SPMAndPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -366,9 +454,9 @@
 		};
 		22D840B822FAEFC700FA3243 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D242A739F1F73F553AA82E /* Pods-SPMAndPod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SPMAndPod/SPMAndPod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4733T56UZW;
@@ -377,6 +465,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = voidilov.SPMAndPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

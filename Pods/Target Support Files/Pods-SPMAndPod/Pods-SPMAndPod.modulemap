@@ -1,0 +1,6 @@
+module Pods_SPMAndPod {
+  umbrella header "Pods-SPMAndPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,20 +8,34 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+class TasksViewController: NSViewController {
+    
+    //Controller Outlets
+    @IBOutlet var outputText: NSTextView!
+    @IBOutlet var spinner: NSProgressIndicator!
+    @IBOutlet var projectPath: NSPathControl!
+    @IBOutlet var buildButton: NSButton!
+    @IBOutlet var targetName: NSTextField!
+    @IBOutlet var repoURLField: NSTextField!
+    
+    var buildTask: Script!
+    
+    @IBAction func startTask(_ sender: AnyObject) {
+        
+        //1.
+        outputText.string = ""
+        
+        if let projectURL = projectPath.url, let repo = URL(string: repoURLField.stringValue) {
+            buildTask = Script(targetName: targetName.stringValue, projectURL: projectURL, repositoryURL: repo)
+            buildTask.run { result in
+                print(result)
+            }
         }
+        
     }
-
-
+    
+    @IBAction func stopTask(_ sender:AnyObject) {
+        buildTask?.stopTask()
+    }
+    
 }
-
